@@ -39,11 +39,7 @@ Local Kubernetes (NodePort): http://localhost:<NodePort>
 
 👩‍💻 Contributors
 
-Aicha NASIH
-
-Salma HERMAK
-
-Khadija BOUYOUSSEF
+Aicha NASIH | Salma HERMAK |Khadija BOUYOUSSEF
 
 📘 Note: This project demonstrates end-to-end DevSecOps principles—integrating development, security, and operations in a Kubernetes-native workflow.
 
