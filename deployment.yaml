@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: projet-nodejs-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: projet-nodejs
+  template:
+    metadata:
+      labels:
+        app: projet-nodejs
+    spec:
+      containers:
+        - name: projet-nodejs
+          image: khadija111111/projet-nodejs:latest
+          ports:
+            - containerPort: 8000
